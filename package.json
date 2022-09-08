@@ -1,0 +1,31 @@
+{
+  "name": "strains",
+  "version": "1.0.0",
+  "description": "Strains is an open source Discord music bot.",
+  "main": "source/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon source/ index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@distube/soundcloud": "^1.2.2",
+    "@distube/spotify": "^1.4.2",
+    "@distube/yt-dlp": "^1.1.3",
+    "@distube/ytsr": "^1.1.8",
+    "discord.js": "^14.3.0",
+    "distube": "^4.0.3",
+    "ffmpeg-static": "^4.4.1",
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.10",
+    "mongoose": "^6.5.4",
+    "ms": "^2.1.3",
+    "pretty-ms": "^8.0.0",
+    "short-number": "^1.0.7",
+    "youtube-ext": "^1.0.11",
+    "ytdl-core": "^4.11.2",
+    "ytsr": "^3.8.0"
+  }
+}
