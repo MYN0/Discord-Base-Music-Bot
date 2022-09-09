@@ -29,8 +29,9 @@ class Handler {
     client.on("ready", async () => {
       // I want to register the commands for a single guild so i'm using this
       await client.guilds.cache
-        .get("1011587737373122560")
+        .get("REPLACE WITH YOUR GUILD ID")
         .commands.set(arrayOfApplicationCommands);
+
       // const connection = await mongoose.connect(config.mongooseConnectionURI);
       // if (!connection) return;
       // console.log("Connected to the Database: MongoDB");
